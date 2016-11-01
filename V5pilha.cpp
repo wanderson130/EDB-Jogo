@@ -59,7 +59,7 @@ int main()
 			while(opc != 'n' and opc !='s')
 			{
 				cout << "Opção INVALIDA!!" << endl << "Dejesa continuar (s/n)? " << endl;
-		        //system("clear"); //NÃO TÁ PEGANDO NO LINUX.. TEM QUE PROCURAR UMA FUNÇÃO QUE FUNCIONE!!!
+		        //system("clear"); //Está funcionando, porém deve-se colocar em um lugar mais adequado;
 		        cin >> opc;
 		        opc = tolower(opc);
 	    	}
